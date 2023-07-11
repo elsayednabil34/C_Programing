@@ -9,7 +9,7 @@ void *Ptr = NULL;
 
 int main()
 {
-    printf("Size of void %i \n", sizeof(void)); /* GCC compiler : 1 */
+    printf("Size of void %i \n", sizeof(void)); /* GCC compiler : ==> 8byte */
 
     printf("Size of Ptr %i \n", sizeof(Ptr));
 
