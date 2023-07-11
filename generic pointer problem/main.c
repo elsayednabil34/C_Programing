@@ -9,9 +9,9 @@ void *Ptr = NULL;
 
 int main()
 {
-    printf("Size of void %i \n", sizeof(void)); /* GCC compiler : ==> 8byte */
+    printf("Size of void %i \n", sizeof(void)); /* GCC compiler : 1 */
 
-    printf("Size of Ptr %i \n", sizeof(Ptr));
+    printf("Size of Ptr %i \n", sizeof(Ptr)); /* GCC compiler : 8 */
 
     Ptr = &Number1;
     printf("Number1 Address = 0x%X \n", Ptr);
